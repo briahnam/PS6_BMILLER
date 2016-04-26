@@ -35,7 +35,7 @@ public class Student_Test {
 	public void deleteAPersonTest() {
 		ArrayList<PersonDomainModel> List = new ArrayList<PersonDomainModel>();
 		UUID stuff = new UUID(0, 0);
-		List.addAll(stuff);
+		
 		PersonDAL.deletePerson(stuff);
 		assertTrue(List.isEmpty());
 	}
