@@ -23,11 +23,6 @@ public class PersonDomainModel {
     private  StringProperty city;
     private  ObjectProperty<LocalDate> birthday;
 
-    /**
-     * Default constructor.
-     */
-
-
     public String getFirstName() {
         return firstName.get();
     }

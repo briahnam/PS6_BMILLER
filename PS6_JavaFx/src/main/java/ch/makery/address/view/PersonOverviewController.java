@@ -119,7 +119,7 @@ public class PersonOverviewController {
             
         } else {
             // Nothing selected.
-            Alert alert = new Alert(AlertType.WARNING);
+			Alert alert = new Alert(AlertType.WARNING);
             alert.initOwner(mainApp.getPrimaryStage());
             alert.setTitle("No Selection");
             alert.setHeaderText("No Person Selected");
